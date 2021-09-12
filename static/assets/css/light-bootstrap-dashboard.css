@@ -3870,7 +3870,7 @@ fieldset[disabled] .btn-neutral.active {
 
 #stripped-title{
     width: 50%;
-    float: left;
+    float: right;
 }
 
 #current-time{
