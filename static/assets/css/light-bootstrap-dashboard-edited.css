@@ -237,8 +237,8 @@ input:focus {
     position: fixed;
     top: 0;
     bottom: 0;
-    left: auto;
-    right: 0;
+    right: auto;
+    left: 0;
     width: 260px;
     display: block;
     z-index: 1;
@@ -351,13 +351,13 @@ input:focus {
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
-    #margin-right: 45px;
+    margin-left: 45px;
 }
 
 .sidebar .nav i {
     font-size: 28px;
-    float: left;
-    #margin-left: 15px;
+    float: right;
+    margin-right: 15px;
     line-height: 30px;
     width: 30px;
     text-align: center;
@@ -1164,7 +1164,7 @@ fieldset[disabled] .btn-neutral.active {
 .alert span[data-notify="icon"] {
     font-size: 30px;
     display: block;
-    right: 15px;
+    left: 15px;
     position: absolute;
     top: 50%;
     margin-top: -15px;
@@ -1172,7 +1172,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .alert button.close {
     position: absolute;
-    left: 10px;
+    right: 10px;
     top: 50%;
     margin-top: -13px;
     z-index: 1033;
@@ -2050,7 +2050,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .footer:not(.footer-big) nav > ul li {
     margin-left: 20px;
-    float: left;
+    float: right;
 }
 
 .footer:not(.footer-big) nav > ul a {
@@ -2177,7 +2177,7 @@ fieldset[disabled] .btn-neutral.active {
 .dropdown-with-icons i {
     text-align: center;
     line-height: 28px;
-    float: left;
+    float: right;
 }
 
 .dropdown-with-icons i[class^="pe-"] {
@@ -2735,7 +2735,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .ct-square:before {
     display: block;
-    float: left;
+    float: right;
     content: "";
     width: 0;
     height: 0;
@@ -2763,7 +2763,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .ct-minor-second:before {
     display: block;
-    float: left;
+    float: right;
     content: "";
     width: 0;
     height: 0;
@@ -2791,7 +2791,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .ct-major-second:before {
     display: block;
-    float: left;
+    float: right;
     content: "";
     width: 0;
     height: 0;
@@ -2819,7 +2819,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .ct-minor-third:before {
     display: block;
-    float: left;
+    float: right;
     content: "";
     width: 0;
     height: 0;
@@ -2847,7 +2847,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .ct-major-third:before {
     display: block;
-    float: left;
+    float: right;
     content: "";
     width: 0;
     height: 0;
@@ -2875,7 +2875,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .ct-perfect-fourth:before {
     display: block;
-    float: left;
+    float: right;
     content: "";
     width: 0;
     height: 0;
@@ -2903,7 +2903,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .ct-perfect-fifth:before {
     display: block;
-    float: left;
+    float: right;
     content: "";
     width: 0;
     height: 0;
@@ -2931,7 +2931,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .ct-minor-sixth:before {
     display: block;
-    float: left;
+    float: right;
     content: "";
     width: 0;
     height: 0;
@@ -2959,7 +2959,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .ct-golden-section:before {
     display: block;
-    float: left;
+    float: right;
     content: "";
     width: 0;
     height: 0;
@@ -2987,7 +2987,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .ct-major-sixth:before {
     display: block;
-    float: left;
+    float: right;
     content: "";
     width: 0;
     height: 0;
@@ -3015,7 +3015,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .ct-minor-seventh:before {
     display: block;
-    float: left;
+    float: right;
     content: "";
     width: 0;
     height: 0;
@@ -3043,7 +3043,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .ct-major-seventh:before {
     display: block;
-    float: left;
+    float: right;
     content: "";
     width: 0;
     height: 0;
@@ -3071,7 +3071,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .ct-octave:before {
     display: block;
-    float: left;
+    float: right;
     content: "";
     width: 0;
     height: 0;
@@ -3099,7 +3099,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .ct-major-tenth:before {
     display: block;
-    float: left;
+    float: right;
     content: "";
     width: 0;
     height: 0;
@@ -3127,7 +3127,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .ct-major-eleventh:before {
     display: block;
-    float: left;
+    float: right;
     content: "";
     width: 0;
     height: 0;
@@ -3155,7 +3155,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .ct-major-twelfth:before {
     display: block;
-    float: left;
+    float: right;
     content: "";
     width: 0;
     height: 0;
@@ -3183,7 +3183,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .ct-double-octave:before {
     display: block;
-    float: left;
+    float: right;
     content: "";
     width: 0;
     height: 0;
@@ -3837,7 +3837,7 @@ fieldset[disabled] .btn-neutral.active {
         margin: 0;
     }
     .navbar-collapse [class^="pe-7s-"] {
-        float: left;
+        float: right;
         font-size: 20px;
         margin-right: 10px;
     }
@@ -3870,10 +3870,10 @@ fieldset[disabled] .btn-neutral.active {
 
 #stripped-title{
     width: 50%;
-    float: left;
+    float: right;
 }
 
 #current-time{
     width: 50%;
-    float: right;
+    float: left;
 }
