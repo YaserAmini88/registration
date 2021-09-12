@@ -13,6 +13,18 @@
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
  */
+
+@font-face {
+font-family: 'samim';
+    src: url("/static/assets/fonts/Samim.eot");
+    src: url("/static/assets/fonts/Samim.woff") format("woff");
+/*src: url('../fonts/Samim.eot');
+src: url('../fonts/Samim.woff') format('woff');
+url('../fonts/Samim.ttf') format('truetype'); */
+font-weight: normal;
+font-style: normal;
+}
+
 /*      light colors         */
 @keyframes spin {
     from {
@@ -69,7 +81,8 @@ td,
 button.close {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: "Roboto","Helvetica Neue",Arial,sans-serif;
+    /*font-family: "Roboto","Helvetica Neue",Arial,sans-serif;*/
+    font-family: samim;
     font-weight: 400;
 }
 
@@ -1685,6 +1698,7 @@ fieldset[disabled] .btn-neutral.active {
     margin: 5px 0px;
     padding: 15px 15px;
     font-size: 20px;
+    font-family: samim;
 }
 
 .navbar .navbar-nav > li > a {
@@ -2038,6 +2052,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .footer .title {
     color: #777777;
+
 }
 
 .footer-default {
@@ -2270,6 +2285,7 @@ fieldset[disabled] .btn-neutral.active {
     font-weight: 400;
     color: #9A9A9A;
     margin-bottom: 0px;
+    font-family: samim;
 }
 
 .card .category i,
@@ -2287,6 +2303,7 @@ fieldset[disabled] .btn-neutral.active {
     margin: 0;
     color: #333333;
     font-weight: 300;
+    font-family: samim;
 }
 
 .card .avatar {
